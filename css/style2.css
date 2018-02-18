@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "opensans-bold"; /* Имя шрифта */
+    src: url(../fonts/opensans-bold_4.ttf); /* Путь к файлу со шрифтом */
+   }
+
+
+.menu {
+	background: #ccc;
+	height: 100px;
+}
+
+.navbar-default .navbar-nav > li > a{
+	border-right: 1px solid #000;
+}
+
+section.header {
+	background: url("../img/back.png") no-repeat;
+	height: 901px;
+	background-size: cover;
+}
+
+section.header h1 {
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+	color: white;
+	font-family: "opensans-bold";
+	font-size: 60px;
+	font-weight: 700;
+	line-height: 80px;
+	text-transform: uppercase;
+	padding-top: 263px;
+}
+
+h1:before {
+    content: '';
+    position: absolute;
+    bottom: 140px;
+    left: 490px;
+    width: 900px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.text2 {
+	width: 314px;
+	height: 45px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.35);
+	color: #ffd213;
+	font-family: "Open Sans";
+	font-size: 45px;
+	font-weight: 700;
+	line-height: 50px;
+	/* Text style for "от 150 грн" */
+	color: transparent;
+	/* Text style for "2" */
+	color: transparent;
+
+}
+
